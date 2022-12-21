@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  background-color: #e8eaed;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  height: 50px;
+  background-color: #4f76a1;
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title {
+  margin: 0;
+}
+
+.search {
+  background-color: #324766;
+  background-image: url("lupa.png");
+  background-size: 7%;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  border-radius: 8px;
+  color: gray;
+  padding-left: 30px;
+  border: none;
+  margin-left: 100px;
+  width: 100px;
+  height: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.menu {
+  width: 15%;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.avatar-friends {
+  text-align: center;
+  padding: 15px 15px 10px 15px;
+  width: 230px;
+  background-color: white;
+  margin: 20px 20px 0 0;
+}
+
+.friends {
+  padding: 15px 15px 6px 15px;
+  width: 230px;
+  background-color: white;
+  margin: 20px 20px 0 0;
+}
+
+.img-avatar {
+  border-radius: 30px;
+}
+
+.friends-pics {
+  display: flex;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-button {
+  width: 200px;
+  margin-top: 10px;
+  background-color: #e5ebf1;
+  border: none;
+  height: 30px;
+}
+
+.profile-container {
+  padding: 10px;
+  margin: 20px;
+  width: 560px;
+  background-color: white;
+}
+
+.profile-info {
+  display: flex;
+  border-top: solid 1px #e8eaed;
+  border-bottom: solid 1px #e8eaed;
+}
+
+.profile-info-answers {
+  padding-left: 45px;
+}
+
+.stat-info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  font-size: 12px;
+}
+
+.author-name {
+  padding-left: 20px;
+}
+
+.author-avatar {
+  border-radius: 30px;
+  padding-top: 10px;
+}
