@@ -93,3 +93,13 @@ body {
   padding-left: 15px;
   border: solid 1px #e7e7e7;
 }
+
+.friends{
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+}
+
+.friend_info{
+  margin-left: 20px;
+}
