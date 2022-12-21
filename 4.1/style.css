@@ -1,0 +1,95 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  height: 70px;
+  background-color: #1e1870;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.header a:first-child {
+  font-weight: bold;
+}
+
+.header a:hover {
+  font-size: 25px;
+  transition: 2s ease;
+}
+
+.profile {
+  width: 25%;
+}
+
+.lenta {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.news {
+  width: 25%;
+}
+
+.profile-info img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.profile-info {
+  border: 1px solid #e7e7e7;
+}
+
+.profile-info_text {
+  padding: 10px;
+}
+
+.profile-links ul {
+  padding-left: 0px;
+}
+
+.profile-links ul li {
+  display: block;
+  border: 1px solid #e7e7e7;
+}
+
+.button {
+  background-color: #006eff;
+  color: white;
+}
+
+.button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+.news_single {
+  border: 1px solid #e7e7e7;
+  padding-left: 15px;
+}
+
+.profile_menu{
+  padding-left: 15px;
+  border: solid 1px #e7e7e7;
+}
