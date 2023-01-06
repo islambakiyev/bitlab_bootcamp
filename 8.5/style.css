@@ -1,0 +1,7 @@
+.gallery{
+    display: flex;
+}
+
+.small-img{
+    width: 100px;
+}

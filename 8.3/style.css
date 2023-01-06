@@ -1,0 +1,26 @@
+.form{
+   width: 50px; 
+   margin: 15px;
+}
+
+.nameForm{
+    width: 250px;
+    margin: 15px;
+}
+
+.button{
+    background-color: #2e74b5;
+    color: white;
+}
+
+.alert{
+    color: green;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.invalid{
+    color: red;
+    font-size: 20px;
+    margin: 20px;
+}
